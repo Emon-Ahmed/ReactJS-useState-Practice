@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Emon Ahmed
+          Emon Ahmed || JS Military
         </p>
       </header>
     </div>
