@@ -4,12 +4,15 @@ import Cart from "./Cart";
 import Person from "./Person";
 
 const Body = () => {
+  //   Calling JSON API
   const [person, setPerson] = useState([]);
   useEffect(() => {
     fetch("fakeData.json")
       .then((res) => res.json())
       .then((data) => setPerson(data));
   }, []);
+
+  //   Handling Cart
   const [cart, setCart] = useState([]);
   const handleCart = (person) => {
     const newCart = [...cart, person];

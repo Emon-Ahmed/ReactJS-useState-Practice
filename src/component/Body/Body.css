@@ -1,7 +1,14 @@
+/*-----------------------
+Google Font Link & Declare
+-------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
 * {
   font-family: "Josefin Sans", sans-serif;
 }
+
+/*----------------------
+Some Gobal Style Declare
+------------------------*/
 .body {
   background-color: #f1f3f6;
   padding-top: 30px;
@@ -11,9 +18,43 @@
   width: 1240px !important;
   margin: auto;
 }
+button {
+  padding: 10px 35px;
+  border: 2px solid #2dde98;
+  color: white;
+  background-color: #2dde98;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.6s;
+}
+button span {
+  padding-left: 5px;
+}
+button:hover {
+  color: #2dde98;
+  background-color: white;
+  transition: 0.6s;
+}
+
+/*---------------------
+Person Component Style
+-----------------------*/
 .person {
   display: flex;
   justify-content: space-between;
+}
+.person-title {
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px !important;
+  letter-spacing: 1.2px;
+  color: #000;
+}
+.person-designation {
+  line-height: 0px !important;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #7f8c8d;
 }
 .per-person {
   display: grid;
@@ -26,7 +67,8 @@
   margin: 20px;
   word-wrap: break-word;
   background-color: #ffffff;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
 .single-person img {
   border-radius: 100%;
@@ -37,33 +79,19 @@
   line-height: 12px;
   font-size: 16px;
 }
-.single-person p:nth-child(2) {
-  font-size: 20px !important;
-  letter-spacing: 1.2px;
-}
+
+/*------------------
+Cart Component Style
+--------------------*/
 .cart-person {
   padding: 20px 25px;
   margin: 20px;
   width: 100%;
   background-color: white;
   height: 100%;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
-button {
-  padding: 10px 35px;
-  border: 1px solid #9d4edd;
-  color: white;
-  background-color: #9d4edd;
-  cursor: pointer;
-  width: 100%;
-}
-button span {
-  padding-left: 10px;
-}
-.text-center {
-  text-align: center;
-}
-.line-height-md {
-  line-height: 0px !important;
-  padding-bottom: 15px;
+.player-list ol li {
+  line-height: 20px;
 }

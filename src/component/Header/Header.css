@@ -1,7 +1,10 @@
+/*--------------------
+Header Component Style
+----------------------*/
 .header {
   text-align: center;
   padding: 25px 0px;
-  background-color: #9d4edd;
+  background-color: #2dde98;
 }
 .header-info p {
   color: white;
