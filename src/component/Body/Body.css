@@ -1,12 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
-*{
-  font-family: 'Josefin Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Josefin Sans", sans-serif;
 }
 .body {
   background-color: #f1f3f6;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 .container {
-  width: 1140px !important;
+  width: 1240px !important;
   margin: auto;
 }
 .person {
@@ -26,34 +28,42 @@
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
-.single-person img{
+.single-person img {
   border-radius: 100%;
   display: block;
   margin: auto;
 }
-.single-person p{
+.single-person p {
   line-height: 12px;
   font-size: 16px;
 }
 .single-person p:nth-child(2) {
-  font-size: 20px!important;
+  font-size: 20px !important;
+  letter-spacing: 1.2px;
 }
 .cart-person {
   padding: 20px 25px;
   margin: 20px;
-  width: 160px;
+  width: 100%;
   background-color: white;
   height: 100%;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
-button{
-  padding: 7px 35px;
-  border: 1px solid black;
+button {
+  padding: 10px 35px;
+  border: 1px solid #9d4edd;
   color: white;
-  background-color: black;
+  background-color: #9d4edd;
   cursor: pointer;
   width: 100%;
 }
-button span{
+button span {
   padding-left: 10px;
+}
+.text-center {
+  text-align: center;
+}
+.line-height-md {
+  line-height: 0px !important;
+  padding-bottom: 15px;
 }

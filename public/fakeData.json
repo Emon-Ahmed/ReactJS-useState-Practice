@@ -2,8 +2,9 @@
   {
     "key": 1,
     "name": "Berne Lissett",
+    "designation": "Developer",
     "email": "blissett0@flickr.com",
-    "gender": "Bigender",
+    "gender": "Male",
     "Salary": 68446,
     "Country": "Russia",
     "photo": "https://emonahmed.com/programming-hero/01.jpg"
@@ -11,8 +12,9 @@
   {
     "key": 2,
     "name": "Marleah Maasz",
-    "email": "mmaasz1@sourceforge.net",
-    "gender": "Female",
+    "designation": "Designer",
+    "email": "maasz1@source.net",
+    "gender": "Male",
     "Salary": 44834,
     "Country": "China",
     "photo": "https://emonahmed.com/programming-hero/02.jpg"
@@ -20,8 +22,9 @@
   {
     "key": 3,
     "name": "Luci Trousdell",
+    "designation": "Developer",
     "email": "ltrousdell2@state.tx.us",
-    "gender": "Non-binary",
+    "gender": "Male",
     "Salary": 52698,
     "Country": "Russia",
     "photo": "https://emonahmed.com/programming-hero/03.jpg"
@@ -29,7 +32,8 @@
   {
     "key": 4,
     "name": "Grannie Wetherald",
-    "email": "gwethe@yellowpages.com",
+    "designation": "Developer",
+    "email": "gwethe@yellow.com",
     "gender": "Male",
     "Salary": 45994,
     "Country": "France",
@@ -38,8 +42,9 @@
   {
     "key": 5,
     "name": "Matilde Bidwell",
-    "email": "mbid@nationalgeographic.com",
-    "gender": "Polygender",
+    "designation": "Developer",
+    "email": "mbid@nationalgeo.com",
+    "gender": "Male",
     "Salary": 17513,
     "Country": "Burkina Faso",
     "photo": "https://emonahmed.com/programming-hero/05.jpg"
@@ -47,7 +52,8 @@
   {
     "key": 6,
     "name": "Stanislas Balloch",
-    "email": "sballoch5@godaddy.com",
+    "designation": "Developer",
+    "email": "sballoch@godaddy.com",
     "gender": "Male",
     "Salary": 88963,
     "Country": "Russia",
@@ -56,8 +62,9 @@
   {
     "key": 7,
     "name": "Byram Lanktree",
+    "designation": "Developer",
     "email": "blanktree6@scribd.com",
-    "gender": "Polygender",
+    "gender": "Male",
     "Salary": 62461,
     "Country": "Dominican Republic",
     "photo": "https://emonahmed.com/programming-hero/07.jpg"
@@ -65,8 +72,9 @@
   {
     "key": 8,
     "name": "Flossi Perryn",
+    "designation": "Developer",
     "email": "fperryn7@spiegel.de",
-    "gender": "Genderfluid",
+    "gender": "Male",
     "Salary": 23648,
     "Country": "Czech Republic",
     "photo": "https://emonahmed.com/programming-hero/08.jpg"
@@ -74,8 +82,9 @@
   {
     "key": 9,
     "name": "Eleni Ubanks",
+    "designation": "Developer",
     "email": "eubanks8@epa.gov",
-    "gender": "Genderqueer",
+    "gender": "Male",
     "Salary": 44366,
     "Country": "Poland",
     "photo": "https://emonahmed.com/programming-hero/09.jpg"
@@ -83,8 +92,9 @@
   {
     "key": 10,
     "name": "Perren Bucktharp",
-    "email": "pbucktharp9@wikia.com",
-    "gender": "Genderqueer",
+    "designation": "Developer",
+    "email": "pbuck@wikia.com",
+    "gender": "Male",
     "Salary": 67907,
     "Country": "Afghanistan",
     "photo": "https://emonahmed.com/programming-hero/10.jpg"
@@ -92,8 +102,9 @@
   {
     "key": 11,
     "name": "Nadya Fowden",
+    "designation": "Developer",
     "email": "nfowdena@archive.org",
-    "gender": "Female",
+    "gender": "Male",
     "Salary": 46918,
     "Country": "Tunisia",
     "photo": "https://emonahmed.com/programming-hero/11.jpg"
@@ -101,8 +112,9 @@
   {
     "key": 12,
     "name": "Rubina Martini",
+    "designation": "Developer",
     "email": "rmartinib@google.it",
-    "gender": "Genderfluid",
+    "gender": "Male",
     "Salary": 17697,
     "Country": "China",
     "photo": "https://emonahmed.com/programming-hero/12.jpg"
@@ -110,8 +122,9 @@
   {
     "key": 13,
     "name": "Adolphus Dicte",
+    "designation": "Developer",
     "email": "adictec@webmd.com",
-    "gender": "Polygender",
+    "gender": "Male",
     "Salary": 11212,
     "Country": "Czech Republic",
     "photo": "https://emonahmed.com/programming-hero/13.jpg"
@@ -119,8 +132,9 @@
   {
     "key": 14,
     "name": "Mallory Tozer",
+    "designation": "Developer",
     "email": "mtozerd@gnu.org",
-    "gender": "Genderfluid",
+    "gender": "Male",
     "Salary": 96902,
     "Country": "China",
     "photo": "https://emonahmed.com/programming-hero/14.jpg"
@@ -128,8 +142,9 @@
   {
     "key": 15,
     "name": "Fulton Jerrard",
+    "designation": "Developer",
     "email": "fjerrarde@fotki.com",
-    "gender": "Genderfluid",
+    "gender": "Male",
     "Salary": 98130,
     "Country": "Philippines",
     "photo": "https://emonahmed.com/programming-hero/15.jpg"
