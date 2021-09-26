@@ -10,8 +10,7 @@ const Header = () => {
             <p>Building A JS Militry Camp</p>
             <h1>Project Budget $120M</h1>
             <p>
-              We Are Here To Build World's Most Expensive Project, Called JS
-              Militry
+              We Are Here To Build World's Most Expensive Project, Called JS Militry Camp
             </p>
           </div>
         </div>

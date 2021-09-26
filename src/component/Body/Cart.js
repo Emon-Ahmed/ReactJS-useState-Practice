@@ -18,11 +18,11 @@ const Cart = (props) => {
   return (
     <div>
       <div className="cart">
-        <p>{User} Total Players: {cart.length}</p>
+        <p>{User} Total Members: {cart.length}</p>
         <p>{DollarSign} Total Cost: ${total}</p>
         <div className="player-list">
           <hr />
-          <p>{User} Players Name:</p>
+          <p>{User} Member Name:</p>
           <ol type="1">
             {cart.map((person) => (
               <li>{person.name}</li>
