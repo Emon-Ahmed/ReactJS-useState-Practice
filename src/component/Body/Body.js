@@ -11,17 +11,25 @@ const Body = () => {
       .then((data) => setPerson(data));
   }, []);
   const [cart, setCart] = useState([]);
-  const handleCart = (person) => { 
-      const newCart = [...cart, person];
-      setCart(newCart);
-  }
+  const handleCart = (person) => {
+    const newCart = [...cart, person];
+    setCart(newCart);
+  };
 
   return (
     <div>
       <div className="body">
         <div className="container">
           <div className="person">
-            <div className="per-person">{person.map( (person) => ( <Person person={person} handleCart={handleCart} ></Person>) )}</div>
+            <div className="per-person">
+              {person.map((person) => (
+                <Person
+                  person={person}
+                  handleCart={handleCart}
+                  key={person.key}
+                ></Person>
+              ))}
+            </div>
             <div className="cart-person">
               <Cart cart={cart}></Cart>
             </div>
