@@ -2,7 +2,7 @@
   background-color: #f1f3f6;
 }
 .container {
-  width: 1140px;
+  width: 1140px !important;
   margin: auto;
 }
 .person {
@@ -12,18 +12,20 @@
 .per-person {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  width: 70%;
 }
 .single-person {
-    width: 70%;
+  height: 340px;
+  width: 180px;
   padding: 20px 25px;
-  margin: 40px;
-  
+  margin: 20px;
+  word-wrap: break-word;
   background-color: #ffffff;
 }
 .cart-person {
   padding: 20px 25px;
-  margin: 40px;
-  width: 30%;
+  margin: 20px;
+  width: 30% !important ;
   background-color: #ffffff;
+  height: 100%;
 }
